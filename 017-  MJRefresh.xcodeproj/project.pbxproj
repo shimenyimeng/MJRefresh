@@ -14,6 +14,8 @@
 		044B90E51DBF49A700238C64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044B90E41DBF49A700238C64 /* Assets.xcassets */; };
 		044B90E81DBF49A700238C64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044B90E61DBF49A700238C64 /* LaunchScreen.storyboard */; };
 		044B90F31DBF49A700238C64 /* _17___MJRefreshUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 044B90F21DBF49A700238C64 /* _17___MJRefreshUITests.m */; };
+		9A852B490249D66E0C50ADAA /* libPods-017-  MJRefresh.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC4A4FCA75E2D9AC39C7220E /* libPods-017-  MJRefresh.a */; };
+		B186D5B50A26CDCC1D1770E7 /* libPods-017-  MJRefreshUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2246507700CE1DF3B76E4682 /* libPods-017-  MJRefreshUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		027A79B69034E35D3F2A7080 /* Pods-017-  MJRefresh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-017-  MJRefresh.release.xcconfig"; path = "Pods/Target Support Files/Pods-017-  MJRefresh/Pods-017-  MJRefresh.release.xcconfig"; sourceTree = "<group>"; };
 		044B90D51DBF49A700238C64 /* 017-  MJRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "017-  MJRefresh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		044B90D91DBF49A700238C64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		044B90DB1DBF49A700238C64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -40,6 +43,11 @@
 		044B90EE1DBF49A700238C64 /* 017-  MJRefreshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "017-  MJRefreshUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		044B90F21DBF49A700238C64 /* _17___MJRefreshUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_17___MJRefreshUITests.m"; sourceTree = "<group>"; };
 		044B90F41DBF49A700238C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E5B0D4182E4ECF200FBB07E /* Pods-017-  MJRefresh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-017-  MJRefresh.debug.xcconfig"; path = "Pods/Target Support Files/Pods-017-  MJRefresh/Pods-017-  MJRefresh.debug.xcconfig"; sourceTree = "<group>"; };
+		2246507700CE1DF3B76E4682 /* libPods-017-  MJRefreshUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-017-  MJRefreshUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C6EF3D67C540FD1C570BB1F /* Pods-017-  MJRefreshUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-017-  MJRefreshUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-017-  MJRefreshUITests/Pods-017-  MJRefreshUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC4A4FCA75E2D9AC39C7220E /* libPods-017-  MJRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-017-  MJRefresh.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4EB31FDC01EC10A58BDE3DC /* Pods-017-  MJRefreshUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-017-  MJRefreshUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-017-  MJRefreshUITests/Pods-017-  MJRefreshUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A852B490249D66E0C50ADAA /* libPods-017-  MJRefresh.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B186D5B50A26CDCC1D1770E7 /* libPods-017-  MJRefreshUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +76,8 @@
 				044B90D71DBF49A700238C64 /* 017-  MJRefresh */,
 				044B90F11DBF49A700238C64 /* 017-  MJRefreshUITests */,
 				044B90D61DBF49A700238C64 /* Products */,
+				E45EB43DFC089D19AA57B7A9 /* Pods */,
+				174023ED7C099086A0CCDBC8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,6 +123,26 @@
 			path = "017-  MJRefreshUITests";
 			sourceTree = "<group>";
 		};
+		174023ED7C099086A0CCDBC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC4A4FCA75E2D9AC39C7220E /* libPods-017-  MJRefresh.a */,
+				2246507700CE1DF3B76E4682 /* libPods-017-  MJRefreshUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E45EB43DFC089D19AA57B7A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E5B0D4182E4ECF200FBB07E /* Pods-017-  MJRefresh.debug.xcconfig */,
+				027A79B69034E35D3F2A7080 /* Pods-017-  MJRefresh.release.xcconfig */,
+				5C6EF3D67C540FD1C570BB1F /* Pods-017-  MJRefreshUITests.debug.xcconfig */,
+				D4EB31FDC01EC10A58BDE3DC /* Pods-017-  MJRefreshUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,9 +150,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 044B90F71DBF49A700238C64 /* Build configuration list for PBXNativeTarget "017-  MJRefresh" */;
 			buildPhases = (
+				91F0A32212EE7FCADCAB4947 /* [CP] Check Pods Manifest.lock */,
 				044B90D11DBF49A700238C64 /* Sources */,
 				044B90D21DBF49A700238C64 /* Frameworks */,
 				044B90D31DBF49A700238C64 /* Resources */,
+				B8BD2D392FD66AE411B7D88F /* [CP] Embed Pods Frameworks */,
+				166B13C842CC6B36CEFE4C7F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,9 +170,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 044B90FA1DBF49A700238C64 /* Build configuration list for PBXNativeTarget "017-  MJRefreshUITests" */;
 			buildPhases = (
+				8BCA1D5226A7FFD711837DA4 /* [CP] Check Pods Manifest.lock */,
 				044B90EA1DBF49A700238C64 /* Sources */,
 				044B90EB1DBF49A700238C64 /* Frameworks */,
 				044B90EC1DBF49A700238C64 /* Resources */,
+				E4017E98E2906127E09039DA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +244,84 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		166B13C842CC6B36CEFE4C7F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-017-  MJRefresh/Pods-017-  MJRefresh-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BCA1D5226A7FFD711837DA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		91F0A32212EE7FCADCAB4947 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B8BD2D392FD66AE411B7D88F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-017-  MJRefresh/Pods-017-  MJRefresh-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4017E98E2906127E09039DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-017-  MJRefreshUITests/Pods-017-  MJRefreshUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		044B90D11DBF49A700238C64 /* Sources */ = {
@@ -347,6 +462,7 @@
 		};
 		044B90F81DBF49A700238C64 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E5B0D4182E4ECF200FBB07E /* Pods-017-  MJRefresh.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "017-  MJRefresh/Info.plist";
@@ -358,6 +474,7 @@
 		};
 		044B90F91DBF49A700238C64 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 027A79B69034E35D3F2A7080 /* Pods-017-  MJRefresh.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "017-  MJRefresh/Info.plist";
@@ -369,6 +486,7 @@
 		};
 		044B90FB1DBF49A700238C64 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C6EF3D67C540FD1C570BB1F /* Pods-017-  MJRefreshUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "017-  MJRefreshUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -380,6 +498,7 @@
 		};
 		044B90FC1DBF49A700238C64 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4EB31FDC01EC10A58BDE3DC /* Pods-017-  MJRefreshUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "017-  MJRefreshUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -408,6 +527,7 @@
 				044B90F91DBF49A700238C64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		044B90FA1DBF49A700238C64 /* Build configuration list for PBXNativeTarget "017-  MJRefreshUITests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +536,7 @@
 				044B90FC1DBF49A700238C64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
